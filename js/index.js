@@ -1,0 +1,239 @@
+//天气界面的动态效果
+$(".weather_1").hover(function(){
+	$(this)[0].style.width="56%";
+	$(".weather_2")[0].style.width="22%";
+	$(".weather_3")[0].style.width="22%";
+	setTimeout(function(){
+		$(".weather_1_img").css("opacity","1");
+		$(".weather_1_img").css("transform","translate(0)");
+		$(".weather_1_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="33.3%";
+	$(".weather_2")[0].style.width="33.3%";
+	$(".weather_3")[0].style.width="33.3%";
+	setTimeout(function(){
+		$(".weather_1_img").css("opacity","0.6");
+		$(".weather_1_img").css("transform","translate(-16%)");
+		$(".weather_1_font").css("display","block");
+	},200);
+});
+$(".weather_2").hover(function(){
+	$(this)[0].style.width="56%";
+	$(".weather_1")[0].style.width="22%";
+	$(".weather_3")[0].style.width="22%";
+	$(".weather_2_img").css("opacity","1");
+	$(".weather_2_img").css("transform","translate(0)");
+	$(".weather_2_font").css("display","none");
+},function(){
+	$(this)[0].style.width="33.3%";
+	$(".weather_1")[0].style.width="33.3%";
+	$(".weather_3")[0].style.width="33.3%";
+	$(".weather_2_img").css("opacity","0.6");
+	$(".weather_2_img").css("transform","translate(-16%)");
+	$(".weather_2_font").css("display","block");
+});
+$(".weather_3").hover(function(){
+	$(this)[0].style.width="56%";
+	$(".weather_1")[0].style.width="22%";
+	$(".weather_2")[0].style.width="22%";
+	setTimeout(function(){
+		$(".weather_3_img").css("opacity","1");
+		$(".weather_3_img").css("transform","translate(-16%)");
+		$(".weather_3_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="33.3%";
+	$(".weather_1")[0].style.width="33.3%";
+	$(".weather_2")[0].style.width="33.3%";
+	setTimeout(function(){
+		$(".weather_3_img").css("opacity","0.6");
+		$(".weather_3_img").css("transform","translate(0)");
+		$(".weather_3_font").css("display","block");
+	},200);
+});
+//地形界面的动态效果
+$(".dx_1").hover(function(){
+	$(this)[0].style.width="40%";
+	$(".dx_2")[0].style.width="15%";
+	$(".dx_3")[0].style.width="15%";
+	$(".dx_4")[0].style.width="15%";
+	$(".dx_5")[0].style.width="15%";
+	setTimeout(function(){
+		$(".dx_1_img").css("opacity","1");
+		$(".dx_1_img").css("transform","translate(0)");
+		$(".dx_1_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="20%";
+	$(".dx_2")[0].style.width="20%";
+	$(".dx_3")[0].style.width="20%";
+	$(".dx_4")[0].style.width="20%";
+	$(".dx_5")[0].style.width="20%";
+	setTimeout(function(){
+		$(".dx_1_img").css("opacity","0.6");
+		$(".dx_1_img").css("transform","translate(-16%)");
+		$(".dx_1_font").css("display","block");
+	},200);
+});
+$(".dx_2").hover(function(){
+	$(this)[0].style.width="40%";
+	$(".dx_1")[0].style.width="15%";
+	$(".dx_3")[0].style.width="15%";
+	$(".dx_4")[0].style.width="15%";
+	$(".dx_5")[0].style.width="15%";
+	setTimeout(function(){
+		$(".dx_2_img").css("opacity","1");
+		$(".dx_2_img").css("transform","translate(0)");
+		$(".dx_2_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="20%";
+	$(".dx_1")[0].style.width="20%";
+	$(".dx_3")[0].style.width="20%";
+	$(".dx_4")[0].style.width="20%";
+	$(".dx_5")[0].style.width="20%";
+	setTimeout(function(){
+		$(".dx_2_img").css("opacity","0.6");
+		$(".dx_2_img").css("transform","translate(-16%)");
+		$(".dx_2_font").css("display","block");
+	},200);
+});
+$(".dx_3").hover(function(){
+	$(this)[0].style.width="40%";
+	$(".dx_1")[0].style.width="15%";
+	$(".dx_2")[0].style.width="15%";
+	$(".dx_4")[0].style.width="15%";
+	$(".dx_5")[0].style.width="15%";
+	setTimeout(function(){
+		$(".dx_3_img").css("opacity","1");
+		$(".dx_3_img").css("transform","translate(-16%)");
+		$(".dx_3_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="20%";
+	$(".dx_1")[0].style.width="20%";
+	$(".dx_2")[0].style.width="20%";
+	$(".dx_4")[0].style.width="20%";
+	$(".dx_5")[0].style.width="20%";
+	setTimeout(function(){
+		$(".dx_3_img").css("opacity","0.6");
+		$(".dx_3_img").css("transform","translate(0)");
+		$(".dx_3_font").css("display","block");
+	},200);
+});
+$(".dx_4").hover(function(){
+	$(this)[0].style.width="40%";
+	$(".dx_1")[0].style.width="15%";
+	$(".dx_2")[0].style.width="15%";
+	$(".dx_3")[0].style.width="15%";
+	$(".dx_5")[0].style.width="15%";
+	setTimeout(function(){
+		$(".dx_4_img").css("opacity","1");
+		$(".dx_4_img").css("transform","translate(-16%)");
+		$(".dx_4_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="20%";
+	$(".dx_1")[0].style.width="20%";
+	$(".dx_2")[0].style.width="20%";
+	$(".dx_3")[0].style.width="20%";
+	$(".dx_5")[0].style.width="20%";
+	setTimeout(function(){
+		$(".dx_4_img").css("opacity","0.6");
+		$(".dx_4_img").css("transform","translate(0)");
+		$(".dx_4_font").css("display","block");
+	},200);
+});
+$(".dx_5").hover(function(){
+	$(this)[0].style.width="40%";
+	$(".dx_1")[0].style.width="15%";
+	$(".dx_2")[0].style.width="15%";
+	$(".dx_3")[0].style.width="15%";
+	$(".dx_4")[0].style.width="15%";
+	setTimeout(function(){
+		$(".dx_5_img").css("opacity","1");
+		$(".dx_5_img").css("transform","translate(-16%)");
+		$(".dx_5_font").css("display","none");
+	},200);
+},function(){
+	$(this)[0].style.width="20%";
+	$(".dx_1")[0].style.width="20%";
+	$(".dx_2")[0].style.width="20%";
+	$(".dx_3")[0].style.width="20%";
+	$(".dx_4")[0].style.width="20%";
+	setTimeout(function(){
+		$(".dx_5_img").css("opacity","0.6");
+		$(".dx_5_img").css("transform","translate(0)");
+		$(".dx_5_font").css("display","block");
+	},200);
+});
+//点击文字做到地形和天气的切换
+//1.创建需要的函数
+	function clickgetweather(){
+		$(".dx_box")[0].style.zIndex="99";
+	}
+	function clickgetdx(){
+		$(".dx_box")[0].style.zIndex="101";
+	}
+//2.绑定点击事件
+$(".weather_font").click(
+	function(){
+		clickgetweather();
+	}
+);
+$(".weather_font2").click(
+	function(){
+		clickgetweather();
+	}
+);
+$(".dx_font").click(
+	function(){
+		clickgetdx();
+	}
+);
+$(".dx_font2").click(
+	function(){
+		clickgetdx();
+	}
+);
+//获取浏览器界面高度给到地图
+var wheight=window.innerHeight;
+$(".map_box").css("height",wheight);
+//地图上扩散的小圈圈
+setInterval(function(){
+	$(".quan_da").css("transition","all 1s");
+	$(".quan_zhong").css("transition","all 1s");
+	$(".quan_xiao").css("transition","all 1s");
+	$(".quan_da").css("width","60px");
+	$(".quan_da").css("height","60px");
+	$(".quan_da").css("opacity","0");
+	$(".quan_zhong").css("width","45px");
+	$(".quan_zhong").css("height","45px");
+	$(".quan_zhong").css("opacity","0");
+	$(".quan_xiao").css("width","30px");
+	$(".quan_xiao").css("height","30px");
+	$(".quan_xiao").css("opacity","0");
+	setTimeout(function(){
+		$(".quan_da").css("transition","all 0s");
+		$(".quan_zhong").css("transition","all 0s");
+		$(".quan_xiao").css("transition","all 0s");
+		$(".quan_da").css("width","20px");
+		$(".quan_da").css("height","20px");
+		$(".quan_da").css("opacity","1");
+		$(".quan_zhong").css("width","20px");
+		$(".quan_zhong").css("height","20px");
+		$(".quan_zhong").css("opacity","1");
+		$(".quan_xiao").css("width","20px");
+		$(".quan_xiao").css("height","20px");
+		$(".quan_xiao").css("opacity","1");
+	},1000);
+},2000);
+//控制视频的显示隐藏
+$(".quan_box").hover(
+	function(){
+		$(".map_video_box").show();
+	},function(){
+		$(".map_video_box").hide();
+	}
+);

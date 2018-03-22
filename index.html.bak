@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="jquery.fullPage.css">
+  <link media="screen and (min-width:768px)" rel="stylesheet" href="css/header.css">
+  <link media="screen and (max-width:768px)" rel="stylesheet" href="css/header2.css">
+
+ </head>
+ <body>
+	<div id="header"></div>
+	<div id="dowebok">
+<!--  第一个视频 -->
+	<div class="video_1_box section">
+		<video class="video_1" src="img/bg.mp4"	autoplay loop poster="img/bg_header.jpg"></video>
+<!--logo -->
+		<div class="video_1_logobox">
+			<img src="img/logo_b.png" alt="" class="video_1_logo">
+		</div>
+	</div>
+<!-- 	第二个视频 -->
+	<div class="video_2_box section">
+		<video class="video_2" src="img/bg2.mp4" autoplay loop poster="img/bg_section1.jpg"></video>
+<!-- 		logo2 -->
+		<div class="video_2_fontbox">
+			<span class="video_2_font1">写实体验</span>
+			<span class="video_2_font2">&nbsp;&nbsp;战术竞技</span>
+			<span class="video_2_font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;连呼吸都必须小心翼翼，前所未有的紧张刺激体验</span>
+		</div>
+	</div>
+<!-- 	第三个视频 -->
+	<div class="video_3_box section">
+		<video class="video_3" src="img/bg3.mp4" autoplay loop poster="img/bg_section2.jpg"></video>
+<!-- 		logo2 -->
+		<div class="video_3_fontbox">
+			<span class="video_2_font1">大世界</span>
+			<span class="video_2_font2">&nbsp;&nbsp;射击体验</span>
+			<span class="video_2_font3">&nbsp;&nbsp;&nbsp;&nbsp;真实的射击体验，多种枪械与配件，眼观六路耳听八方</span>
+		</div>
+	</div>
+<!-- 	第四部分，天气地形部分 -->
+<div class="weather_dx_box section">
+<!-- 天气部分 -->
+	<div class="weather_box">
+		<div class="weather_1" style="width:33.3%;">
+			<img src="img/img_weather1.jpg" style="transform:translate(-16%);opacity:0.6;" alt="1" class="weather_1_img">
+			<span class="weather_1_font">雨天</span>
+		</div>
+		<div class="weather_2" style="width:33.3%;">
+			<img src="img/img_weather2.jpg" style="transform:translate(-16%);opacity:0.6;" alt="2" class="weather_2_img">
+			<span class="weather_2_font">晴天</span>
+		</div>
+		<div class="weather_3" style="width:33.3%;">
+			<img src="img/img_weather3.jpg" style="opacity:0.6;" alt="3" class="weather_3_img">
+			<span class="weather_3_font">雾天</span>
+		</div>
+	</div>
+<!-- 地形部分 -->
+	<div class="dx_box" style="z-index:99;">
+		<div class="dx_1" style="width:20%;">
+			<img src="img/img_terrain1.jpg" style="transform:translate(-16%);opacity:0.6;" alt="1" class="dx_1_img">
+			<span class="dx_1_font">丛林</span>
+		</div>
+		<div class="dx_2" style="width:20%;">
+			<img src="img/img_terrain2.jpg" style="transform:translate(-16%);opacity:0.6;" alt="2" class="dx_2_img">
+			<span class="dx_2_font">水体</span>
+		</div>
+		<div class="dx_3" style="width:20%;">
+			<img src="img/img_terrain3.jpg" style="transform:translate(-16%);opacity:0.6;" alt="3" class="dx_3_img">
+			<span class="dx_3_font">山丘</span>
+		</div>
+		<div class="dx_4" style="width:20%;">
+			<img src="img/img_terrain4.jpg" style="opacity:0.6;" alt="4" class="dx_4_img">
+			<span class="dx_4_font">建筑</span>
+		</div>
+		<div class="dx_5" style="width:20%;">
+			<img src="img/img_terrain5.jpg" style="opacity:0.6;" alt="5" class="dx_5_img">
+			<span class="dx_5_font">平原</span>
+		</div>
+	</div>
+<!--  		地形与天气的文字部分  -->
+ 	<div class="weather_dx_font_box"> 
+ 		<div class="weather_font">天气</div> 
+ 		<div class="weather_font2">天气将严重影响视野，既潜藏着危险，也能成为你的掩护</div>
+ 		<div class="dx_font">地形</div>
+ 		<div class="dx_font2">善于利用不同的地形埋伏和躲避，才能取得胜利</div>
+ 	</div>
+</div>
+<!-- 地图部分 -->
+<div class="map_box section">
+	<h1 class="map_font_1">瞬息万变 策略为王</h1>
+	<div class="map_font_2">时刻变化的随机因素，制定最优策略</div>
+	<div class="quan_box">
+		<div class="quan_da" style="width:20px;height:20px;opacity:1"></div>
+		<div class="quan_zhong" style="width:20px;height:20px;opacity:1"></div>
+		<div class="quan_xiao" style="width:20px;height:20px;opacity:1"></div>
+		<span class="quan_jia">+</span>	
+	</div>
+	<div class="quan_box_2">
+		<div class="quan_da" style="width:20px;height:20px;opacity:1"></div>
+		<div class="quan_zhong" style="width:20px;height:20px;opacity:1"></div>
+		<div class="quan_xiao" style="width:20px;height:20px;opacity:1"></div>
+		<span class="quan_jia">+</span>	
+	</div>
+	<div class="map_video_box">
+		<video class="map_video" src="img/bg4.mp4" autoplay loop></video>
+	</div>
+</div>
+</div>
+<!-- 右侧的滚动条 -->
+	<div class="index_nav_box">
+		<img src="img/bg_nav.png" alt="" class="index_nav">
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/header-zr.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/jquery.fullPage.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+	$(function(){
+		$('#dowebok').fullpage({
+			'navigation': true,
+		});
+		function videoplay(){
+			$("video").each(function(i,e){
+				$("video").get(i).play();
+			});
+		}
+		videoplay();
+	});
+</script>
+ </body>
+</html>

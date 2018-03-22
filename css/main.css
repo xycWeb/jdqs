@@ -1,0 +1,44 @@
+.big-bg-box{
+	width:100%;
+	height:100%;
+}
+.big-bg{
+	width:100%;
+    height:100%;
+    margin-top:76px;
+}
+.dh-img{
+	width:100%;
+}
+.banner{
+	position:relative;
+	width:750px;
+	overflow:hidden;
+	margin-left:10%;
+}
+.lb-img-box{
+	position:relative;
+	display:flex;
+	width:4500px;
+}
+.lb-font{
+	color: #303030;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.lb-dian{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border-radius:5px;
+	border:1px solid black;
+}
+.lb-dian-box{
+	position:absolute;
+	left:550px;
+	top:405px;
+	z-index:100;
+}
+.xyc-bg{
+	background:red;
+}

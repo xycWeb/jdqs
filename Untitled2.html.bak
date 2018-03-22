@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+/*	.d1{*/
+/*		text-align:center;*/
+/*		height:100vh;*/
+/*		width:100vw;*/
+/*		border:1px solid red; */
+/*	}*/
+/*	.d1:after{*/
+/*		display:inline-block;*/
+/*		content:'';*/
+/*		height:100%;*/
+/*		width:0;*/
+/*		vertical-align:middle;*/
+/*	}*/
+	.d2{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 4.45rem;
+		height: .97rem;
+		background-position: -2.48rem -2.17rem;
+		-webkit-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		left: -4.68rem;
+		-webkit-transition: none;
+		transition: none;
+/*		vertical-align:middle;*/
+/*		border:1px solid red;*/
+		background:black url('img/sprite.png') no-repeat fixed;
+		background-size:13.4rem 9.79rem;
+		position: absolute;
+	}
+  </style>
+ </head>
+ <body>
+<!-- 	<div class="d1"> -->
+		<div class="d2"></div>
+<!-- 	</div> -->
+ </body>
+</html>

@@ -1,0 +1,55 @@
+ <!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link media="screen and (min-width:768px)" rel="stylesheet" href="css/header.css">
+  <link media="screen and (max-width:768px)" rel="stylesheet" href="css/header2.css">
+  <title>Document</title>
+ </head>
+ <body>
+    <div id="header"></div>
+	<div class="container big-bg-box">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding:0;">
+                <img src="img/header.jpg" class="big-bg" alt="1">
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-xs-6 col-sm-3"><img src="img/1515702623350172393.jpg" alt="1" class="dh-img img-responsive center-block"></div>
+			<div class="col-xs-6 col-sm-3"><img src="img/1515702440353214850.jpg" alt="1" class="dh-img img-responsive center-block"></div>
+			<div class="col-xs-6 col-sm-3"><img src="img/1516133391669927167.jpg" alt="1" class="dh-img img-responsive center-block"></div>
+			<div class="col-xs-6 col-sm-3"><img src="img/1515096699454841091.jpg" alt="1" class="dh-img img-responsive center-block"></div>
+		</div>
+    </div>
+	<div class="new-box">
+		<div class="banner">
+			<div class="lb-dian-box">
+				<span class="lb-dian xyc-bg" data-bg=1></span>
+				<span class="lb-dian" data-bg=2></span>
+				<span class="lb-dian" data-bg=3></span>
+				<span class="lb-dian" data-bg=4></span>
+				<span class="lb-dian" data-bg=5></span>
+			</div>
+			<div class="lb-img-box" style="left:0">
+					<div class="lb-img-1"><img src="img/1519434711423805589.jpg" alt="1"><div class="lb-font">老兵登机专属福利</div></div>
+					<div class="lb-img-2"><img src="img/1518467990533052504.jpg" alt="1"><div class="lb-font">老兵登机专属福利</div></div>
+					<div class="lb-img-3"><img src="img/1516322979298716408new.jpg" alt="1"><div class="lb-font">老兵登机专属福利</div></div>
+					<div class="lb-img-4"><img src="img/1516132963355927002.jpg" alt="1"><div class="lb-font">老兵登机专属福利</div></div>
+					<div class="lb-img-5"><img src="img/1519784136328313185.jpg" alt="1"><div class="lb-font">老兵登机专属福利</div></div>
+					<div class="lb-img-6"><img src="img/1519434711423805589.jpg" alt="1"><div class="lb-font">老兵登机专属福利</div></div>
+			</div>
+		</div>
+		<div class="new"></div>
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>	
+	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/header-zr.js"></script>
+    <script src="js/header.js"></script>
+ </body>
+</html>

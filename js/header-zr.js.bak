@@ -1,0 +1,9 @@
+$('#header').load('header.html',function(){
+	$(".header_xlcd_box").hover(
+	function(){
+		$(".header_float").removeClass("yc");	
+	},
+	function(){
+		$(".header_float").addClass("yc");	
+	});
+});
